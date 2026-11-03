@@ -99,7 +99,7 @@ h1, h2, h3 {
   gap: 12px;
   color: var(--blue-deep);
 }
-.logo-mark { height: 44px; width: auto; display: block; }
+.logo-mark { height: 56px; width: auto; display: block; }
 .brand-stack {
   font-family: var(--display);
   font-weight: 900;
@@ -143,6 +143,7 @@ nav.primary-nav a.active {
 }
 @media (max-width: 620px) {
   .site-header .wrap { flex-wrap: wrap; height: auto; padding: 16px 22px; gap: 10px; }
+  .logo-mark { height: 44px; }
   nav.primary-nav ul { flex-wrap: wrap; }
 }
 
